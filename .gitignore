@@ -10,9 +10,8 @@ cmake_install.cmake
 *.sln
 *.dir/
 
-# Third-party copies (run scripts/setup-third-party.ps1)
-third_party/rtaudio/
-third_party/ASIO/
+# RtAudio local CMake build output (sources in third_party/rtaudio are tracked)
+third_party/rtaudio/build/
 
 # Qt deploy artifacts
 *.dll
