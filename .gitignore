@@ -1,0 +1,23 @@
+build/
+build-*/
+*.user
+*.suo
+.vs/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.vcxproj*
+*.sln
+*.dir/
+
+# Third-party copies (run scripts/setup-third-party.ps1)
+third_party/rtaudio/
+third_party/ASIO/
+
+# Qt deploy artifacts
+*.dll
+platforms/
+
+# IDE
+.idea/
+*.autosave
